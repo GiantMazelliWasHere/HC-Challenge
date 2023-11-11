@@ -1,0 +1,198 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/* Cabeçalho */
+.barraTop {
+    background-color: #fcf7f7;
+    width: 100%;
+    display: inline-block;
+    height: fit-content;
+    padding-bottom: 2px;
+}
+
+.info {
+    font-size: 11px;
+    float: left;
+    display: flex;
+    margin-left: 12%;
+    margin-top: 0.8%;
+    cursor: pointer;
+}
+
+.pesquisa {
+    float: right;
+    display: block;
+    margin-right: 13%;
+    margin-top: 0.5%;
+}
+
+.button {
+    background-color: #30AAA0;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    width: 152px;
+    height: 31px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    width: 200px;
+    height: 37px;
+}
+
+.logos {
+    display: grid;
+    grid-template-areas:
+    "logo logo2";
+    grid-template-columns: auto 55%;
+}
+
+.logo {
+    cursor: pointer;
+    grid-area: logo;
+    margin-left: 25%;
+    margin-top: 3%;
+
+}
+
+.logo2 {
+    grid-area: logo2;
+    margin-right: 60%;
+    margin-top: 1%;
+}
+
+/* Menu */
+#menu {
+    background-color: #1E1B54;
+    color: white;
+    margin-top: 2%;
+    padding: 15px 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#botao {
+    background-color: #2F9687;
+    border: 1px solid #1E1B54;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#menu #botao a {
+    text-decoration: none;
+    color: #1E1B54;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+#menu li{
+    border-right: 1px solid #515251;
+    display: inline;
+    margin: auto;
+}
+
+#menu li a:hover {
+    color:#2F9687;
+}
+
+/* Faixa trilha */
+.trilha {
+    background-color: #30AAA0;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+.trilha a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Conteúdo */
+#interativo {
+    margin: auto 15%;
+    display: grid;
+    grid-template-areas: 
+    "paciente acompanhante"
+    "voluntario sobre";
+}
+
+.botao {
+    border: 1px solid #1E1B54;
+    border-radius: 3px;
+    padding: 30px;
+    background-color:#30AAA0;
+    margin-top: 2%;
+}
+
+.botao:hover {
+    background-color:#1E1B54;
+    border-color:#30AAA0;
+}
+
+.secao {
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* Rodapé */
+.rodape {
+    display: block;
+    float: bottom;
+    margin-top: 2%;
+}
+
+.fundoEscuro {
+    background-color: #1E1B54;
+    color: #ffffff;
+    display: grid;
+    grid-template-areas:
+    "links contato apps";
+    padding-left: 12%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.fundoEscuro ul {
+    list-style: none;
+}
+
+.fundoEscuro a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato {
+    grid-area: contato;
+}
+
+.apps {
+    grid-area: apps;
+}
+
+.fundoClaro {
+    height: 40px;
+    background-color: #80b2ad;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 21px;
+}
