@@ -130,6 +130,15 @@
     "voluntario sobre";
 }
 
+#agendamento {
+    margin: 2% 15%;
+    display: flex;
+}
+
+#exames {
+    display: flex;
+}
+
 .botao {
     border: 1px solid #1E1B54;
     border-radius: 3px;
@@ -144,6 +153,7 @@
 }
 
 .secao {
+    display: flex;
     text-align: center;
     margin-top: 10%;
 }
