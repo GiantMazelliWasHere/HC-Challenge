@@ -1,3 +1,11 @@
+/* PC */
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
+
+/* Notebook */
+@media (min-width: 992px) and (max-width: 1119px) {
+}
+
 * {
     margin:0;
     padding:0;
@@ -130,7 +138,7 @@
     "voluntario sobre";
 }
 
-#agendamento {
+#agendamentos {
     margin: 2% 10%;
 }
 
