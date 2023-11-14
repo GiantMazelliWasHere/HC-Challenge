@@ -34,10 +34,10 @@
     color: white;
     border: 0;
     border-radius: 4px;
-    width: 152px;
-    height: 31px;
+    padding: 12px;
     text-align: center;
     cursor: pointer;
+    border: 1px solid #1E1B54;
 }
 
 .input {
@@ -131,17 +131,34 @@
 }
 
 #agendamento {
-    margin: 2% 15%;
-    display: flex;
+    margin: 2% 10%;
 }
 
 #exames {
-    display: flex;
+    display: inline-flex;
+    margin-top: 1%;
+}
+
+.exames {
+    display: block;
+}
+
+.agendar {
+    max-width: 320px;
+    margin: 2% 0;
+}
+
+.inputs {
+    border: 1px solid #30AAA0;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5%;
 }
 
 .botao {
     border: 1px solid #1E1B54;
-    border-radius: 3px;
+    border-radius: 2px;
     padding: 30px;
     background-color:#30AAA0;
     margin-top: 2%;
