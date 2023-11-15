@@ -1,7 +1,7 @@
 // Variavéis
 const button = document.querySelector("#enviar");
 const inputNome = document.querySelector("#nome");
-const inputConsuta = document.querySelector("#consulta");
+const inputConsulta = document.querySelector("#consulta");
 const inputHorario = document.querySelector("#horario");
 const inputPesquisa = document.querySelector("#inputPesquisa")
 
@@ -12,8 +12,8 @@ const error = document.createElement('p');
 
 // Função de limpeza
 function clearForm() {
-    buttonNome.value = '';
-    inputConsuta.value = '';
+    inputNome.value = '';
+    inputConsulta.value = '';
     inputHorario.value = '';
     error.textContent = '';
 }
@@ -33,9 +33,9 @@ button.addEventListener(("click"), function(event) {
     }
 
     // Consulta
-    if (inputConsuta.value === '') {
+    if (inputConsulta.value === '') {
         error.textContent = "Este campo é obrigatório";
-        inputConsuta.insertAdjacentElement("afterend", error);
+        inputConsulta.insertAdjacentElement("afterend", error);
         error.setAttribute("class", "error");
         return false;
     }
@@ -48,6 +48,9 @@ button.addEventListener(("click"), function(event) {
         return false;
     }
 
+    console.log(inputNome.value)
+    console.log(inputConsulta.value)
+    console.log(inputHorario.value)
     clearForm();
 })
 
