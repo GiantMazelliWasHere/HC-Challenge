@@ -60,4 +60,3 @@ function apareceBarraDePesquisa(){
 function esconderBarraDePesquisa(){
     inputPesquisa.style.display = 'none';
 }
-
