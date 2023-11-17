@@ -50,10 +50,11 @@
 
 .input {
     background-color: #f7f7f7;
-    border: 1px solid #eee;
+    border: 1px solid #000;
     border-radius: 2px;
     width: 200px;
     height: 37px;
+    display: none;
 }
 
 .logos {
@@ -230,4 +231,8 @@
     color: #ffffff;
     text-align: center;
     padding-top: 21px;
+}
+
+.error {
+    color: red;
 }
