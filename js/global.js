@@ -1,4 +1,4 @@
-const inputPesquisa = document.querySelector("#inputPesquisa")
+const inputPesquisa = document.querySelector("#inputPesquisa");
 
 // Barra de Pesquisa
 
@@ -15,8 +15,7 @@ function esconderBarraDePesquisa(){
 const button = document.querySelector("#enviar");
 const inputNome = document.querySelector("#nome");
 const inputConsulta = document.querySelector("#consulta");
-const inputHorario = document.querySelector("#horario");
-const inputPesquisa = document.querySelector("#inputPesquisa")
+const inputHorario = document.querySelector("#horario");    
 
 // Validação do Formulário
 
@@ -61,8 +60,5 @@ button.addEventListener(("click"), function(event) {
         return false;
     }
 
-    console.log(inputNome.value)
-    console.log(inputConsulta.value)
-    console.log(inputHorario.value)
     clearForm();
 })
