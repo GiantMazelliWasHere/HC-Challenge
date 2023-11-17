@@ -48,9 +48,6 @@ button.addEventListener(("click"), function(event) {
         return false;
     }
 
-    console.log(inputNome.value)
-    console.log(inputConsulta.value)
-    console.log(inputHorario.value)
     clearForm();
 })
 
