@@ -81,11 +81,12 @@
 /* Menu */
 #menu {
     background-color: #1E1B54;
-    color: white;
+    color: white    ;
     margin-top: 2%;
-    padding: 15px 10%;
+    padding: 0 10%;
     display: flex;
     flex-direction: row;
+    height: fit-content;
 }
 
 #botao {
@@ -93,11 +94,15 @@
     border: 1px solid #1E1B54;
     border-radius: 8px;
     padding: 8px;
+    max-height: 35px;
+    margin-top: 7px;
+    margin-left: 3px;
 }
 
 #menu #botao a {
     text-decoration: none;
     color: #1E1B54;
+    padding: 0;
 }
 
 #menu a {
@@ -105,12 +110,14 @@
     color: white;
     display: block;
     width: 100%;
+    padding: 15px;
 }
 
 #menu li{
     border-right: 1px solid #515251;
     display: inline;
     margin: auto;
+    height: 50px;
 }
 
 #menu li a:hover {
