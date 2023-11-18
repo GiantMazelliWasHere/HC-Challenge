@@ -135,8 +135,8 @@
     margin: auto 15%;
     display: grid;
     grid-template-areas: 
-    "paciente acompanhante"
-    "voluntario sobre";
+    "cima"
+    "baixo";
 }
 
 #agendamentos {
@@ -149,12 +149,16 @@
 }
 
 .exames {
-    display: block;
+    display: grid;
+    grid-template-areas:
+    "coleta raio-x ultrassom";
+    text-align: center;
+    margin-top: 2%;
 }
 
 .agendar {
     max-width: 320px;
-    margin: 2% 0;
+    margin: 4% 0;
 }
 
 .inputs {
@@ -167,10 +171,11 @@
 
 .botao {
     border: 1px solid #1E1B54;
-    border-radius: 2px;
-    padding: 30px;
+    border-radius: 10px;
+    padding: 70px;
     background-color:#30AAA0;
     margin-top: 2%;
+    text-align: center;
 }
 
 .botao:hover {
@@ -178,10 +183,18 @@
     border-color:#30AAA0;
 }
 
-.secao {
-    display: flex;
+.cima {
+    margin-top: 3%;
+    display: grid;
+    grid-template-areas: "1 2";
     text-align: center;
-    margin-top: 10%;
+}
+
+.baixo {
+    margin-top: 5%;
+    display: grid;
+    grid-template-areas: "1 2";
+    text-align: center;
 }
 
 /* Rodapé */
