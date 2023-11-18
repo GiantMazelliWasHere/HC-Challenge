@@ -91,7 +91,7 @@
 #botao {
     background-color: #2F9687;
     border: 1px solid #1E1B54;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 8px;
 }
 
@@ -167,6 +167,21 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 5%;
+}
+
+#enviar {
+    border: 1px solid #1E1B54;
+    border-radius: 5px;
+    background-color:#30AAA0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 90%;
+}
+
+#enviar:hover {
+    border: 1px solid #30AAA0;
+    background-color:#1E1B54;
 }
 
 .botao {
