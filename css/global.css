@@ -139,13 +139,27 @@
     "baixo";
 }
 
-#agendamentos {
-    margin: 2% 10%;
+#sobre {
+    margin: 2% 15%;
 }
 
-#exames {
-    display: inline-flex;
-    margin-top: 1%;
+#sobre li{
+    list-style: none;
+    margin-left: 2%;
+}
+
+#sobre li a{
+    text-decoration: none;
+    color:#000;
+}
+
+#sobre li a:hover{
+    text-decoration: none;
+    color:#30AAA0;
+}
+
+#agendamentos {
+    margin: 2% 10%;
 }
 
 .exames {
