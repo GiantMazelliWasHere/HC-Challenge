@@ -6,11 +6,6 @@
 @media (min-width: 992px) and (max-width: 1119px) {
 }
 
-body {
-    min-width: 1500px;
-    max-width: 1919px;
-}
-
 * {
     margin:0;
     padding:0;
@@ -88,10 +83,14 @@ body {
     background-color: #1E1B54;
     color: white    ;
     margin-top: 2%;
-    padding: 0 10%;
+    padding: 0 8%;
     display: flex;
     flex-direction: row;
     height: fit-content;
+}
+
+#menu li{
+    list-style: none;
 }
 
 #botao {
@@ -99,33 +98,32 @@ body {
     border: 1px solid #1E1B54;
     border-radius: 8px;
     padding: 8px;
-    max-height: 35px;
-    margin-top: 7px;
-    margin-left: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-#menu #botao a {
+#botao a {
     text-decoration: none;
     color: #1E1B54;
-    padding: 0;
 }
 
-#menu a {
+.li{
+    border-right: 1px solid #515251;
+    display: inline;
+    height: 50px;
+    margin: auto;
+}
+
+.li a {
     text-decoration: none;
     color: white;
     display: block;
     width: 100%;
-    padding: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
 }
 
-#menu li{
-    border-right: 1px solid #515251;
-    display: inline;
-    margin: auto;
-    height: 50px;
-}
-
-#menu li a:hover {
+.li a:hover {
     color:#2F9687;
 }
 
