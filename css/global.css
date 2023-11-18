@@ -172,7 +172,6 @@
 .botao {
     border: 1px solid #1E1B54;
     border-radius: 10px;
-    padding: 70px;
     background-color:#30AAA0;
     margin-top: 2%;
     text-align: center;
@@ -195,6 +194,14 @@
     display: grid;
     grid-template-areas: "1 2";
     text-align: center;
+}
+
+.image {
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2px;
 }
 
 /* Rodapé */
