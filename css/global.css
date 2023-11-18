@@ -6,6 +6,11 @@
 @media (min-width: 992px) and (max-width: 1119px) {
 }
 
+body {
+    min-width: 1500px;
+    max-width: 1919px;
+}
+
 * {
     margin:0;
     padding:0;
