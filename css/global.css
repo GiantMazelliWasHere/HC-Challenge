@@ -81,17 +81,30 @@
 /* Menu */
 #menu {
     background-color: #1E1B54;
-    color: white    ;
+    color: white;
     margin-top: 2%;
-    padding: 0 8%;
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
 }
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* #menu li:first-child {
+    width: 15%;
+} */
 
 #menu li{
     list-style: none;
+    text-align: center;
+    width: 30%;
+    border-right: 1px solid #515251;
+    align-items: center;
 }
+
+/* #menu li a{
+} */
 
 #botao {
     background-color: #2F9687;
@@ -107,20 +120,11 @@
     color: #1E1B54;
 }
 
-.li{
-    border-right: 1px solid #515251;
-    display: inline;
-    height: 50px;
-    margin: auto;
-    padding-right: 2%;
-}
-
 .li a {
     text-decoration: none;
     color: white;
     display: block;
     width: 100%;
-    margin-top: 15px;
 }
 
 .li a:hover {
