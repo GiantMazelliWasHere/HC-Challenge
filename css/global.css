@@ -155,12 +155,11 @@
 
 .agendar {
     max-width: fit-content;
-    margin: 4% 0;
+    margin-top: 4%;
 }
 
 .inputs {
     border: 1px solid #30AAA0;
-    width: 31.25rem;
     padding: 10px;
     border-radius: 5px;
     margin-top: 2%;
@@ -173,8 +172,8 @@
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 0.625rem;
     float: right;
+    margin-top: 0.625rem;
 }
 
 #enviar:hover {
@@ -225,7 +224,6 @@
     padding-left: 12%;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-top: 5%;
 }
 
 .fundoEscuro ul {
@@ -331,6 +329,15 @@
         margin: 1.25rem;
         margin-top: 1.4375rem;
     }
+
+    /* Agendamentos */
+    .inputs {
+        width: 43.75rem;
+    }
+    
+    .agendar {
+        margin-bottom: 5rem;
+    }
 }
 
 /* tablet */
@@ -395,6 +402,15 @@
         border-radius: 15px;
         margin: 0.9375rem;
         margin-top: 1.125rem;
+    }
+
+    /* Agendamentos */
+    .inputs {
+        width: 31.25rem;
+    }
+
+    .agendar {
+        margin-bottom: 5rem;
     }
 }
 
@@ -494,5 +510,14 @@
     #ona {
         width: 5rem;
         height: 5rem;
+    }
+
+    /* Agendamentos */
+    .inputs {
+        width: 18.75rem;
+    }
+
+    .agendar {
+        margin-bottom: 5rem;
     }
 }
